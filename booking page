@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="booking.css">
+  <title>Travel Booking Form</title>
+</head>
+<body>
+  <section>
+    <div class="wrapper">
+      <form id="bookingForm" action="">
+        <h2>Travel Booking Form</h2>
+        <div class="input-box">
+          <span class="icon">
+            <ion-icon name="person"></ion-icon>
+          </span>
+          <input type="text" placeholder="Name" name="name" required></input>
+        </div>
+        <div class="input-box">
+          <span class="icon">
+            <ion-icon name="mail"></ion-icon>
+          </span>
+          <input type="email" placeholder="Email" name="email" required></input>
+        </div>
+        <div class="input-box">
+          <label for="city1">Location</label>
+          <select id="city1" name="location" required>
+            <option value="">Select a city</option>
+            <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+            <option value="kollam">kollam</option>
+            <option value="Kozhikode">Kozhikode</option>
+            <option value="Kannur">Kannur</option>
+            <option value="Thrissur">Thrissur</option>
+            <option value="Kochi">Kochi</option>
+            <option value="Palakkad">Palakkad</option>
+            <option value="Munnar">Munnar</option>
+            <option value="Ernakulam">Ernakulam</option>
+          </select>
+        </div>
+        <div class="input-box">
+          <label  id = "a" for = "pickup date">Pick up Date</label>
+          <input type="date" name="pickupDate" required>
+        </div>
+        <div class="input-box">
+          <label  id = "a" for = "return date">Return Date</label>
+          <input type="date" name="returnDate" required>
+        </div>
+        <div class="input-box">
+          <span class="icon">
+            <ion-icon name="bicycle"></ion-icon>
+          </span> 
+          <select id="icon" name="select a bikee" required>
+            <option value="">Select a bike</option>
+            <option value="ktm">ktm</option>
+            <option value="pulsar">pulsar</option>
+            <option value="Apache">Apache</option>
+            <option value="Royalenfiled">Royalenfield</option>
+            <option value="tvs">tvs</option>
+            <option value="herohonda">hero honda</option>
+            <option value="royal-himalyan ">royal-himalyan</option>
+            <option value="duke">duke</option>
+            <option value="fz">fz</option>
+          </select>
+        
+
+         
+        </div>
+        
+        <div class="input-box">
+          <span class="icon">
+            <ion-icon name="call"></ion-icon>
+          </span>
+          <input type="number" placeholder="Mobile Number" name="mobileNumber" required></input>
+        </div>
+        <div class="forget-pass">
+        </div>
+        <button type="submit" id="bookButton">Book</button>
+      </form>
+    </div>
+  </section>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script>
+    document.getElementById('bookingForm').addEventListener('submit', function(event) {
+      // Get all form elements
+      const form = event.target;
+      // Check form validity
+      if (form.checkValidity()) {
+        // Form is valid, display booking confirmation alert
+        alert('Booking Confirmed');
+      } else {
+        // Form is invalid, prevent submission and display alert
+        alert('Please fill out all required fields.');
+        event.preventDefault();
+      }
+    });
+  </script>
+</body>
+</html>
