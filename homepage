@@ -1,0 +1,438 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROYAL BROTHERS</title>
+    <link rel="stylesheet" href="project2.css">
+
+</head>
+<body>
+    <div class="container1">
+        <nav class="r4">
+           
+            <div class="collapse navbar-collapse" id="navbarNav">
+                
+              <ul class="navbar-nav">
+                
+                <li class="nav-item active">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#reviews">Reviews</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="booking.html" target="_blank">book a ride</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#saftey" >safety</a>
+                </li>
+                
+              </ul>
+            </div>
+          </nav>
+        
+        
+    </div>
+    <br>
+    <section class="reviews2" id="reviews2">
+        <div class="heading">
+         
+        <h1 class="like">why ROYAL BROTHERS?</h1>
+        <p class="mk">We simplified bike rentals, so you can focus on what's important to you.</p>
+        </div>
+        <div class="reviews-container">
+        <div class="box">
+        <div class="rev-img">
+        <img src="OIP (5).jpg" alt="">
+        </div>
+        <h2> Safe rides</h2>
+        <div class="stars">
+        </div>
+        <p>Your safety is our priority. From sanitizing all bikes before every use, to extensive on-ground safety measures, your rides with ROYAL BROTHERS will always be safe and reliable. We also offer helmets on-demand.</p>
+        </div>
+        <div class="box">
+        <div class="rev-img">
+        <img src="OIP.jpg" alt="">
+        </div>
+        <h2>Flexible ownership</h2>
+        <div class="stars">
+        </div>
+        <p>Enjoy the freedom of owning a two-wheeler without the hefty down-payments, EMIs and paperwork. Now choose from rent-to-own, monthly/quarterly bookings, and even daily plans.</p>
+        </div>
+        <div class="box">
+        <div class="rev-img">
+        <img src="OIP (2).jpg" alt="">
+        </div>
+        <h2>Affordable costs</h2>
+        <div class="stars">
+        </div>
+        <p>Your local Royal Brothers Station is here to make ensure your two-wheeler experience is flawless. At your neighborhood station, you get to pick any bike, get maintenance, sanitized, and a lot more.</p>
+        </div>
+        <div class="box">
+            <div class="rev-img">
+            <img src="OIP (1).jpg" alt="">
+            </div>
+            <h2>Booking stations</h2>
+            <div class="stars">
+            </div>
+            <p>With your trusty Management, you can choose any bike, make instant payments, get offers, and manage all aspect of your Royal Brothers experience right from the comfort and ease.</p>
+            </div>
+        </div>
+        <br>
+        <br>
+   
+    <!-- 2nd container-->
+    <div class="container2" id="home">
+        <div class="box1">
+           <div class="left1">
+               <h5><span class="link">Royal Enfield Classic-350</span></h5>
+               <p>Displacement:350 CC</p>
+               <p>Fuel Tank Capacity: 20L<br>Top Speed: 120kmph<br><i><b>4000 rupees per day</i></b><br>ID:120</p>
+           </div>
+           <div class="right1">
+            <div class="photo1"><img src="images/classic2.jpg" alt="image" width="100%"></div>
+           </div>
+        </div>
+        <div class="box2">
+            <div class="left1">
+                <h5><span class="link">Royal Enfield Himalayan</span></h5>
+                <p>Displacement:411 CC</p>
+                <p>Fuel Tank Capacity: 15L<br>Top Speed: 145kmph<br><i><b>4500 rupees per day</i></b><br>ID:250</p>
+            </div>
+            <div class="right1">
+             <div class="photo1"><img src="images/himalayan2.jpeg" alt="image" width="100%"></div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container2">
+        <div class="box1">
+           <div class="left1">
+               <h5><span class="link">Bajaj Avenger 220</span></h5>
+               <p>Displacement:219.9 CC</p>
+               <p>Fuel Tank Capacity: 14L<br>Top Speed: 120kmph<br><i><b>3000 rupees per day</i></b><br>ID:174</p>
+           </div>
+           <div class="right1">
+            <div class="photo1"><img src="images/avenger.jpg" alt="image" width="100%"></div>
+           </div>
+        </div>
+        <div class="box2">
+            <div class="left1">
+                <h5><span class="link">Apache 4V</span></h5>
+                <p>Displacement:159 CC</p>
+                <p>Fuel Tank Capacity: 16L<br>Top Speed: 114kmph<br><i><b>4100 rupees per day</i></b><br>ID:56</p>
+            </div>
+            <div class="right1">
+             <div class="photo1"><img src="images/apache.jpg" alt="image" width="100%"></div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container2">
+        <div class="box1">
+           <div class="left1">
+               <h5><span class="link">Yamaha FZ</span></h5>
+               <p>Displacement:150 CC</p>
+               <p>Fuel Tank Capacity: 12L<br>Top Speed: 115kmph<br><i><b>5000 rupees per day</i></b><br>ID:78</p>
+           </div>
+           <div class="right1">
+            <div class="photo1"><img src="images/fz.jpg" alt="image" width="100%"></div>
+           </div>
+        </div>
+        <div class="box2">
+            <div class="left1">
+                <h5><span class="link">KTM RC 200</span></h5>
+                <p>Displacement:200 CC</p>
+                <p>Fuel Tank Capacity: 9.5L<br>Top Speed: 130kmph<br><i><b>5300 rupees per day</i></b><br>ID:546</p>
+            </div>
+            <div class="right1">
+             <div class="photo1"><img src="images/ktm.jpg" alt="image" width="100%"></div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container2">
+        <div class="box1">
+           <div class="left1">
+               <h5><span class="link">Honda Activa</span></h5>
+               <p>Displacement:109.2 CC</p>
+               <p>Fuel Tank Capacity: 5.3L<br>Top Speed: 83kmph<br><i><b>2000 rupees per day</i></b><br>ID:265</p>
+           </div>
+           <div class="right1">
+            <div class="photo1"><img src="images/activa.jpg" alt="image" width="100%"></div>
+           </div>
+        </div>
+        <div class="box2">
+            <div class="left1">
+                <h5><span class="link">Honda Dio</span></h5>
+                <p>Displacement:100 CC</p>
+                <p>Fuel Tank Capacity: 6L<br>Top Speed: 78kmp<br><i><b>2500 rupees per day</i></b><br>ID:251</p>
+            </div>
+            <div class="right1">
+             <div class="photo1"><img src="images/dio.png" alt="image" width="100%"></div>
+            </div>
+        </div>
+        <BR>
+            <div id="locations">
+                <h1>Our Locations</h1>
+                <div class="flip-container">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="title">Delhi</p>
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="delhi.jpg" alt="Hyderabad Location">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="title">KOCHI</p>
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="download40.jpg" alt="Coimbatore Location">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-container">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <p class="title">vizag</p>
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="Araku.jpg" alt="AMRITAPURI">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <p class="title">Pune</p>
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="download11.jpg" alt="Coimbatore Location">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <p class="title">Mumbai</p>
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="download1.jpg" alt="Coimbatore Location">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div id="locations">
+                <div class="flip-container">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="title">Kashmir</p>
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="OIP (6).jpg" alt="Hyderabad Location">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <p class="title">Ooty</p>
+                            </div>
+                            <div class="flip-card-back">
+                                <img src="ooty.jpg" alt="Coimbatore Location">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-container">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <p class="title">Bangalore</p>
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="download2.jpg" alt="AMRITAPURI">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <p class="title">Manali</p>
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="OIPP.jpg" alt="Coimbatore Location">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <p class="title">Surat</p>
+                                </div>
+                                <div class="flip-card-back">
+                                    <img src="OIP (7).jpg" alt="Coimbatore Location">
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <br>
+        <section class="reviews3" id="reviews3">
+            <div class="heading">
+                <h2 class="po">Top FAQ's</h2>
+                <p class="ij">Renting a Bike should be Easy, Like our FAQs.</p>          
+            </div>
+            <div class="reviews-container">
+            <div class="box">
+    
+            <h2>How do I pay?</h2>
+            <div class="stars">
+            </div>
+            <p>You can pay online using debit/credit card or e-wallets. You can also pay at the hub station during your vehicle pick-up..</p>
+            <h2> Where can I pick up the bike from?</h2>
+            <p>While booking your bike, you’ll be given an option to select a pick-up location in your vicinity.</p>
+            </div>
+            
+            <div class="box">
+            <h2>What documents do I need to show while booking?</h2>
+            <div class="stars">
+            </div>
+            <p>Customer must handover his/ her original Driving License during pick up of bike at the station to the delivery executive. It is mandatory to handover a local address proof/ Company ID copy/ Hotel Receipt/ or any other recognised local address proof to the delivery executive.</p>
+            <h2>Will I be getting a complimentary helmet?</h2>
+            <p>One complimentary helmet is provided at no additional cost.
+                An additional helmet (Extra) can be rented from the station for Rs. 50.
+                Customers can only rent 2 helmets per booking.
+                A fee of Rs. 800 will be imposed if the helmet is damaged or lost.
+                </p>
+            </div>
+            
+            </div>
+            <br>
+            <p class="qw">If you have any more doubts, please visit our FAQ Section
+                Our Daily Bike Renting Plan is the most affordable plan in India. Check out our Fleet and Pricing section on top for more detailed information and if you are a bike enthusiast, check out our Blog</p>
+                <br>
+              
+            <section class="reviews4" id="reviews4">
+                    <div class="heading">
+                    </div>
+                    <div class="reviews-container">
+                    <div class="box4">
+                    
+                        <h1 class="bh">Popular Bikes for Rent:</h1>
+                    <div class="stars">
+                    <div class="high_rent">
+                    <p>ktm</p>
+                    <p>Pulsar 150</p>
+                    <p>Duke</p>
+                    <p>Honda Shine</p>
+                    <p>TVS </p>
+                    </div>
+                    <div class="high_rent">
+                    <p>Bajaj CT 100</p>
+                    <p>Royal Enfield 350</p>
+                    <p>Apache 4V</p>
+                    <p>Yamaha</p>
+                    <p>Gixer</p>
+                    
+                    </div>
+                
+                    </div>
+                    <br>
+        <section class="reviews" id="reviews">
+         <div class="heading"> 
+            <span>Reviews</span>   
+            <h1 class="hu">What our Customer Says</h1>
+         </div>
+         <div class="reviews-container">
+         <div class="box">
+         <div class="rev-img">
+         <img src="IMAGES/jaswanthimg.JPG" alt="">
+         </div>
+         <h2> jaswanth</h2>
+         <div class="stars">
+         </div>
+         <p>Thanks everyone at Ticket to Ride for helping us with our Great Glen ride, the bikes were great, the bag transfer was efficient and the lifts to the start and from the end all worked fantastically.
+             Thanks very much you helped make it a very enjoyable few days riding.</p>
+         </div>
+         <div class="box">
+         <div class="rev-img">
+         <img src="images/praneeth.jpg" alt="">
+         </div>
+         <h2>praneeth</h2>
+         <div class="stars">
+         </div>
+         <p>Hired a bike for a few hours to ride to Loch Ness. Very happy with the excellent service and bike quality. Perfect bike for the job. Would definitely rent from them again next time I'm in the area</p>
+         </div>
+         <div class="box">
+         <div class="rev-img">
+         <img src="images/abhi.jpg" alt="">
+         </div>
+         <h2>abhiradh</h2>
+         <div class="stars">
+         </div>
+         <p>Excellent service, really good bikes and lovely people to deal with.
+             Used them last year and would use them again</p>
+         </div>
+         </div>
+         <a class="gthub" href="https://github.com/praneeth4334/bikerental">GITHUB</a>
+         <br><br>
+         <div class="kil" id="footer">
+
+
+            <h5>UID_PROJECT&copy;</h5>
+            <hr>
+            <H3>Looking for Two-Wheeler Rent</H3>
+            <p>ONN Bikes is the most affordable bike rental company in India. We specialize in motorcycle rental, from short-term motorbike rental to long-term hiring or leasing, from bike tours to bike maintenance and service – we have it all. We have bike rentals in Bangalore, Hyderabad, Udaipur, Mysuru and now in Jaipur. We have a wide range of geared, non-geared two wheelers and scooters for rent. We have become one of India’s leading bike rentals because we simplified the process and made it affordable. Have a look at our Offers and Deals section specially tailored for your needs.
+                You can now rent two wheelers in Bangalore, Mysore, Hyderabad, Udaipur and Jaipur in just three easy steps either through our website or by downloading our Bike Rental App which is available on both Android and iOS. With our highly efficient booking system, you can now sit back and relax while we do all your work. Install our Android or iOS Bike Rental App to Hire a Bike in Hyderabad in Seconds. We understand your biking needs and always place it at the top of our priorities. Bike rentals in India couldn’t get any easier!</p>
+                <br>
+            <h3>Looking for Affordable Bike Renting?</h3>
+            <p>We believe that each one of us is unique. Being unique means we all have different likes and needs. So, we went out of our way to get something for everyone. All you have to do is make up your mind and pick one! It doesn’t matter if you’re a college student, a working professional or a bike enthusiast who just wants to ride around the city for the weekend, pick something that suits your lifestyle and Wallet as well.</p>
+            <br>
+            <h3>Introducing Monthly bike Renting Subscription</h3>
+            <p>Renting a bike everyday might seem like a task for many. So, we introduced a monthly subscription package which allows you to be flexible and rent a bike for a month or maybe more. You can rent a two wheeler online on monthly, quarterly, half yearly or yearly basis. From an hour to a year, motorbike rental was never so flexible.</p>
+            <p>OUR FLEET IN VARIOUS CITIES</p>
+            <p>Scooters on rent - Honda Activa, Honda Dio
+                Cruise Bikes on rent - Bajaj Avenger 220 Cruise, Royal Enfield Classic 350, Royal Enfield Thunderbird 350
+                Commuter Bikes on rent - Bajaj Pulsar 150, Yamaha FZ, Bajaj Pulsar 180, Bajaj Avenger 220 Street
+                Sports Bikes on rent - KTM Duke 250, Honda CBR 150, Bajaj Dominar 400 ABS
+                Adventure Bikes on rent - Royal Enfield Himalayan
+                Utility Bikes on rent - Honda Livo, Bajaj CT 100, Hero HF Deluxe, Bajaj Pulsar 135</p>
+                
+              <p> MONTHLY SUBSCRIPTION</p> 
+                
+               <p> Renting a bike every day might seem like a task for many. So, we introduced a monthly subscription package which allows you to be flexible and rent a bike for a month or maybe more. You can rent a two-wheeler online on a monthly, quarterly, half-yearly or yearly basis. From an hour to a year, motorbike rental was never so flexible.</p> 
+                
+               <p> ROYAL BROTHER BIKES B2B
+                
+                <p> Are you looking to partner with us? Look no further. We cater to all companies which rely on last mile delivery in various cities across India. Our low maintenance two-wheelers come as great assistance to logistics, food delivery and bike taxi companies in Karnataka, Telangana, Rajasthan and Delhi NCR region.</p> 
+                
+                <p>SUBSCRIPTION BUNDLES </p>
+                
+                    <p>Getting a bike rental every day may seem like a hassle to some people. As a result, we've created multi-month plans that give you the freedom to rent a bike for as little as a week or as long as you choose. We provide online motorcycle rentals on a monthly, quarterly, semiannual, or annual basis. Motorcycles can be rented for as little as an hour or as long as a year.</p> 
+                
+                    <p>GROW YOUR BUSINESS WITH Royal Brother BIKES B2B SERVICES</p>
+                
+                <p>  Do you wish to collaborate with us? Stop right here. Our services are available to any business in India that need last-mile delivery to any of the country's many cities. Our low-maintenance motorcycles and scooters are a huge help to businesses providing services like logistics, food delivery, and bike taxis in the states of Karnataka, Telangana, Rajasthan, and the National Capital Region (NCR) of India.</p>
+                <HR>
+                    <br>
+                    <h4>&copy;2021 MOTOCRUIZER TECHNOLOGIES INDIA PVT.LTD. ALL RIGHTS RESERVED</h4>
+                    <br>
+         </div>
+    </div>
+
+    
+        
+    <script src="script.js"></script>
+</body>
+</html>
